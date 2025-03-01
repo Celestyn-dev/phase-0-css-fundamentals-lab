@@ -3,3 +3,68 @@ body {
   height: 100%;
   margin: 0;
 }
+header {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px;
+  background-color: grey;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 14px;
+}
+
+#featured-property p {
+  width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#details div {
+  float: left;
+  width: 25%;
+  text-align: center;
+  background-color: lightgrey;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#details {
+  display: flex;
+  justify-content: space-between;
+}
+
+#details div {
+  width: 25%;
+  background-color: lightgrey;
+  text-align: center;
+}
+#bottom-row {
+  display: flex; /* Aligns divs in a row */
+  justify-content: space-between; /* Distributes divs evenly */
+  background-color: #f4f4f4; /* Sets the same background color for all */
+  padding: 20px 0; /* Adds vertical spacing */
+}
+
+#bottom-row div {
+  width: 25%; /* Each div takes up 25% of the row */
+  text-align: center; /* Centers the text */
+  padding: 15px; /* Adds spacing inside each div */
+  box-sizing: border-box; /* Ensures padding doesn’t affect width */
+}
